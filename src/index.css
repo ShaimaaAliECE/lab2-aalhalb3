@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.button{
+    width: 5rem;
+    height: 4rem;
+    background-color: white;
+    font-size: '30px';
+    cursor: pointer;
+    border-radius: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.boardStyle{
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+
+.red{
+    content: "RED";
+    width: 5rem;
+    height: 4rem;
+    background-color: red;
+    font-size: '30px';
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.yellow{
+    content: "YELLOW";
+    width: 5rem;
+    height: 4rem;
+    background-color: yellow;
+    font-size: '30px';
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.winnerText{
+    font-size: 20px;
+    margin: 10px 710px;
 }
