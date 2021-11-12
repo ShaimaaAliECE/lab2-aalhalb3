@@ -1,0 +1,2 @@
+.button{width:5rem;height:4rem;background-color:#fff;font-size:"30px";cursor:pointer;border-radius:100%}.boardStyle{width:500px;height:350px;margin:0 auto;display:grid;grid-template:repeat(4,1fr)/repeat(4,1fr)}.red{content:"RED";background-color:red}.red,.yellow{width:5rem;height:4rem;font-size:"30px";cursor:pointer;border-radius:100%}.yellow{content:"YELLOW";background-color:#ff0}.winnerText{font-size:20px;margin:10px 710px}
+/*# sourceMappingURL=main.ef678fa5.chunk.css.map */
